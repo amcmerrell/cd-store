@@ -5,6 +5,10 @@ import { CDDisplayComponent } from './CDdisplay.component';
 import { SortGenrePipe } from './sortGenre.pipe';
 import { FormsModule }   from '@angular/forms';
 import { AddCDComponent } from './new-cd.component';
+import { SortPricePipe } from './sort-price.pipe';
+import { AddArtistComponent } from './new-artist.component';
+import { SortArtistPipe } from './sort-artist.pipe';
+
 
 @NgModule({
   imports: [
@@ -15,7 +19,10 @@ import { AddCDComponent } from './new-cd.component';
     AppComponent,
     CDDisplayComponent,
     SortGenrePipe,
-    AddCDComponent
+    AddCDComponent,
+    SortPricePipe,
+    AddArtistComponent,
+    SortArtistPipe
   ],
   bootstrap: [ AppComponent ]
 })

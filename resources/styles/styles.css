@@ -1,3 +1,41 @@
 h1 {
-  color: blue;
+  color: fuchsia;
+  padding:  20px;
+  text-align: center;
+  font-size: 5em;
+}
+
+body {
+  color: white;
+  padding: 30px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 1.25em;
+}
+
+.form-control {
+  background-color: ivory;
+}
+
+#background-image {
+  background: url(https://static1.squarespace.com/static/562683a0e4b0c144685efc2d/t/562688f6e4b0c2985fc9cfbd/1445366012468/music_wallpaper_perfect_2038_high_definition.jpg?format=2500w) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#color-filter {
+  background-color: rgba(0,0,0,0.6);
+  min-height: 100%;
+}
+
+#addCD {
+  padding-top: 15%;
+}
+
+#addArtist {
+  padding-top: 30%;
 }
